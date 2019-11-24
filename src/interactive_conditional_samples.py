@@ -9,11 +9,11 @@ import tensorflow as tf
 import model, sample, encoder
 
 def interact_model(
-    model_name='117M',
+    model_name='345M',
     seed=None,
-    nsamples=1,
-    batch_size=1,
-    length=None,
+    nsamples=5,
+    batch_size=5,
+    length=40, # used to be None (mhahn)
     temperature=1,
     top_k=0,
     models_dir='models',    
