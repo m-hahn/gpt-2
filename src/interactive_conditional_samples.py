@@ -11,9 +11,9 @@ import model, sample, encoder
 def interact_model(
     model_name='124M',
     seed=None,
-    nsamples=5,
-    batch_size=5,
-    length=40, # used to be None (mhahn)
+    nsamples=1,
+    batch_size=1,
+    length=None,
     temperature=1,
     top_k=0,
     top_p=1,
